@@ -1,0 +1,244 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+    min-height: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=======start of my css====== */
+
+.container {
+    line-height: 34px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("imgs/shattered/bckshattered.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#topheader {
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav {
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom-style: solid;
+    padding: 10px 0px 10px 0px;
+    border-bottom-width: 5px;
+    border-color: #cccccc;
+    background: #ffffff;
+}
+ul {
+    min-block-size: 40px;
+    padding: 10px 0px 10px 0px;
+    align-content:center;
+    display: flex;
+}
+ul a {
+    border-right-width: 1px;
+    border-color: #cccccc;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    color: #777777;
+    
+}
+.content {
+    border-color:#dddddd;
+    border-width: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display:flex;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background: #666666;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+header h1 {
+    color:#ffffff;
+    text-align: center;
+}
+
+.bodyarticle {
+    display: flex;
+    background-color: #ffffff;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 400px;
+    height: auto;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.bodyarticlespanh1 {
+    display:flex;
+    color:#4aaaa5;
+    font-size: 30px;
+}
+
+.break::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.facey {
+    float: left;
+    display: flex;
+    background-image: url("imgs/facey.jpg");
+}
+
+.bodyarticlespan {
+    display:flex;
+    margin: 20px 10px 20px 10px;
+    background-color: #ffffff;
+    width:80%;
+    align-items: stretch;
+    height: auto;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.textcontainer {
+    padding: 5px 0px 5px 0px;
+    text-align: top;
+    display:flex;
+    align-content: center;
+    align-items: stretch;
+}
+
+.formbox {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.contacth1 {
+    position: fixed;
+    display: flex;
+    display: top;
+    overflow: auto;
+}
+
+.divform {
+    padding: 40px 10px 10px 10px;
+    text-align: top;
+    display:flex;
+    align-content: center;
+    align-items: stretch;
+    background-color: #ffffff;
+    width:auto;
+    align-items: stretch;
+    height: auto;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#headerfull {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.cardalign {
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    width:auto;
+    height: auto;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    border-color: #cccccc;
+    display: flex;
+    align-items: stretch;
+    border-color: #cccccc;
+    border-width: 5px;
+}
+
+.portfolioh1 {
+    display:flex;
+    float: top;
+    float: left;
+    display:flex;
+    color:#4aaaa5;
+    font-size: 30px;
+    margin-left: 10%;
+    height: 40px;
+    width: 80%;
+    padding: 5px;
+
+}
+
+.picbox {
+    background: #ffffff;
+    height: auto;
+    width: auto;
+    border-color: #cccccc;
+    border: solid thin #cccccc;
+    border-width: 5px;
+}
+
+pbetter {
+    margin:10px;
+}
